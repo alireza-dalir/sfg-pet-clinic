@@ -42,11 +42,13 @@
                         </checkModificationExcludes>
 
                         <goal>install</goal>
+                        <autoVersionSubmodules>true</autoVersionSubmodules>
                     </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
     </build>
+
 
     <scm>
         <developerConnection>scm:git:https://github.com/alireza-dalir/sfg-pet-clinic.git</developerConnection>
