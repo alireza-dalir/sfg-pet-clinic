@@ -3,15 +3,15 @@ package guru.springframework.sfgpetclinic.model;
 public class Person extends BaseEntity {
 
 
-    private String fristName;
+    private String firstName;
     private String lastName;
 
-    public String getFristName() {
-        return fristName;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setFristName(String fristName) {
-        this.fristName = fristName;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getLastName() {
